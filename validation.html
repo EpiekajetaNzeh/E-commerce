@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link  href="https://fonts.googleapis.com/css2?family=poppins:wght@400;700&display=swap" rel="style">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="/">
+             <h1>Registration</h1> 
+            <div class="input-control">
+                <!-- <label for="username">username</label> -->
+                <input id="username" placeholder="username*" name="username" type="text">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <!-- <label for="email">Email</label> -->
+                <input id="email" placeholder="Email Address*" name="email" type="text">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <!-- <label for="password">password</label> -->
+                <input id="password" placeholder="password*" name="password" type="password">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <!-- <label for="password">password again</label> -->
+                <input id="password2" placeholder="confirm password*" name="password2" type="password">
+                <div class="error"></div>
+            </div>
+
+            <button type="submit">submit</button>
+            <p>Already have an account? <a href="login.html">login</a></p>
+            <!-- <img src="img/bg.jpg" alt="" width="300" height="300"> -->
+        </form>
+        <!-- <img src="img/bg.jpg" alt="" width="300" height="300"> -->
+    </div>
+</body>
+
+<script type="module" src="index.js" defer></script>
+
+</html>
